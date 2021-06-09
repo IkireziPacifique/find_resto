@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+    overflow-x: hidden;
+}
+/* Navigation Bar */
+nav{
+    background-color: white;
+    padding: 10px 50px;
+    max-width: 100%;
+    /* width: 100; */
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    flex: 1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2C5F2D;
+}
+
+nav span{
+    color: #738F5B;
+}
+
+nav .items{
+    padding: 10px;
+    display: inline-flex;
+    /* margin-right: 20px; */
+}
+
+nav ul li a{
+    color: #2C5F2D;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #738F5B;
+}
+
+/* nav ul li.search{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    border-top: 1px solid grey;
+} */
+
+nav input{
+    height: 100%;
+    width: 200px;
+    border: 1px solid grey;
+    padding: 10 10px;
+    border-radius: 3px;
+}
+
+
+/* Heroic part   */
+.hero-part{
+    width: 90%;
+    margin: 100px 25px;
+    display: inline-flex;
+}
+
+.hero-word{
+    width: 50%;
+    padding: 0px 100px;
+}
+
+.hero-word h1{
+    font-size: 40px;
+    color: #2C5F2D;
+}
+
+.hero-word p{
+    color: #738F5B;
+}
+
+
+.hero-process{
+    width: 50%;
+    text-align: center;
+}
+
+.hero-process img{
+    margin-top: 40px;
+    width: 25em;
+}
+
+
+/* Page header */
+.page-header{
+    background-color: white;
+    margin: 25px 40px;
+    padding: 10px;
+}
+
+/* Restaurants */
+.restaurants{
+    display: inline-flex;
+    padding: 20px 50px;
+}
+
+.restaurants .filter{
+    width: 13em;
+    height: 30em;
+    background-color: white;
+    padding: .5em;
+}
+
+.restaurants .choices{
+    width: 57.5em;
+    height: 42em;
+    background-color: white ;
+    margin-left: 35px;
+}
+
+.restaurants .choices .row{
+    display: flex;
+}
+
+.restaurants .choices .row .col1, .col2, .col3{
+    width: 18em;
+    height: 19em;
+    margin: 1em;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.col-upper{
+    padding: .3em;
+    /* transform: translate(-50%, -50%); */
+    position: absolute;     
+}
+ 
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+ 
+.overlay {
+    transition: .1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.col-upper:hover .image {
+    opacity: 0.3;
+  }
+  
+.col-upper:hover .overlay {
+    opacity: 1;
+  }
+
+.col-upper:hover .text {
+    opacity: 1;
+  }
+  
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+.col-bottom{
+    padding: .4em;
+    /* position: fixed; */
+}
+
+.bottom{
+    display: inline-flex;
+}
+
+.status{
+    padding-left: 4.5em;
+    color: rgb(0, 167, 0);
+}
+
+
+/* Footer */
+.footer{
+    display: inline-flex;
+    width: 100%;
+    background-color: #738F5B;
+}
+
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer .footer1, .footer2, .footer3{
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .footer1 p span{
+    color: azure;
+}

@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+/* Navigation Bar */
+nav{
+    background-color: white;
+    padding: 10px 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    flex: 1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2C5F2D;
+}
+
+nav span{
+    color: #738F5B;
+}
+
+nav .items{
+    padding: 10px;
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #2C5F2D;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #738F5B;
+}
+
+nav ul li.search{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    border-top: 1px solid grey;
+}
+
+input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    border-radius: 5px 0 0 5px;
+}
+/* Page header */
+.page-header{
+    background-color: white;
+    margin: 25px 50px;
+    padding: 10px;
+}
+
+/* Resto Details */
+.description{
+    height: 20em;
+    margin: 25px 50px;
+    background-color: white;
+    display: flex;
+}
+
+.description .resto{
+    padding: .4em;
+}
+
+.description .resto img{
+    width: 23em;
+}
+
+.description .descript{
+    padding: 30px;
+}
+
+.reservation{
+    height: 20em;
+    margin: 25px 50px;
+    background-color: white;
+}
+
+.reservation h1{
+    text-align: center;
+}
+
+.reservation-form{
+    display: flex;
+}
+
+form{
+    margin: 1em 4em;
+    width: 30em;
+}
+
+.reservation-form input[type=text]{
+    width: 15em;
+    height: 3em;
+    border-radius: 1px;
+    border: 1px solid grey;
+
+}
+
+.reservation-form input[type = email]{
+    width: 30em;
+    height: 3em;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+
+.reservation-form input[type = number]{
+    width: 10em;
+    height: 3em;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+
+.reservation-form input[type = date]{
+    width: 12em;
+    height: 3em;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+.reservation-form label{
+    margin-right: 10px;
+}
+
+.reservation-form input[type = tel]{
+    width: 30em;
+    height: 3em;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+
+.reservation-form img{
+    width: 9em;
+}
+
+.reservation-form input[type = button]{
+    width: 15em;
+    height: 3em;
+    border-radius: 3px;
+    background-color: #2C5F2D;
+    color: white;
+    margin-left: 15em;
+}
+
+.feedback-card{
+    height: 15em;
+    margin: 25px 50px;
+    background-color: white;
+}
+
+.feedback-card h1{
+    text-align:center;
+}
+
+.feedback{
+    display: inline-flex;
+}
+
+.profile{
+    width: 20em;
+}
+
+.profile img{
+    width: 10em;
+    border-radius: 100%;
+    padding: 1em 3em;
+}
+
+/* Footer */
+.footer{
+    display: inline-flex;
+    width: 100%;
+    background-color: #738F5B;
+}
+
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer .footer1, .footer2, .footer3{
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .footer1 p span{
+    color: azure;
+}

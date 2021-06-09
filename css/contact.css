@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Segoe UI;
+}
+
+body{
+    background-color: rgb(233, 233, 233);
+}
+/* Navigation Bar */
+nav{
+    background-color: white;
+    padding: 10px 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    flex: 1;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2C5F2D;
+}
+
+nav span{
+    color: #738F5B;
+}
+
+nav .items{
+    padding: 10px;
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: #2C5F2D;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: #738F5B;
+}
+
+nav ul li.search{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    border-top: 1px solid grey;
+}
+
+input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    border-radius: 5px 0 0 5px;
+}
+/* Page header */
+.page-header{
+    background-color: white;
+    margin: 25px 50px;
+    padding: 10px;
+}
+
+.contact{
+    height: 22em;
+    margin: 25px 50px;
+    background-color: white;
+    display: flex;
+    padding: 2em;
+}
+
+form{
+    box-shadow: 1px 1px 5px grey;
+    margin: 0em 2em;
+    padding: 1em;
+}
+
+form input[type=text]{
+    width: 30em;
+    height: 2em;
+    border-radius: 1px;
+    border: 1px solid grey;
+
+}
+
+form input[type = email]{
+    width: 30em;
+    height: 2em;
+    border-radius: 1px;
+    border: 1px solid grey;
+}
+
+form input[type = button]{
+    width: 15em;
+    height: 3em;
+    border-radius: 3px;
+    background-color: #2C5F2D;
+    color: white;
+    margin-left: 15em;
+}
+
+.address{
+    height: 20em;
+    margin: 25px 50px;
+    background-color: white;
+    display: flex;
+}
+
+.contact-details, .map{
+    width: 50%;
+}
+
+.contact-details{
+    padding: 2em 4em;
+}
+
+.map img{
+    padding: .4em;
+    margin-left: 8em;
+    width: 27.5em;
+}
+
+
+
+/* Footer */
+.footer{
+    display: inline-flex;
+    width: 100%;
+    background-color: #738F5B;
+}
+
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer .footer1, .footer2, .footer3{
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer .footer1 p span{
+    color: azure;
+}
